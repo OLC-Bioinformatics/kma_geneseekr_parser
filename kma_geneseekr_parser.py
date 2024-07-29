@@ -22,7 +22,7 @@ def substitute_strain_ids(gene_df, mapping_df):
     return gene_df
 
 # Load mapping file [ this is mapping file :Noor]
-mapping_file = 'temp'
+mapping_file = 'mapping_file.txt'
 mapping_df = load_mapping_file(mapping_file)
 
 # Load and process file2 [ This file is kma output file with two columns : Noor]
